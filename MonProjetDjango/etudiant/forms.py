@@ -5,7 +5,7 @@ from .models import User
 class StudentRegistration(forms.ModelForm):
     class Meta:
         model = User
-        fields = ['name' , 'email' , 'password']
+        fields = ['nam e' , 'email' , 'password']
         widgets = {
             'name': forms.TextInput(attrs={'class': 'form-control'}),
             'email': forms.TextInput(attrs={'class': 'form-control'}),
